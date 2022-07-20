@@ -1,0 +1,1658 @@
+[
+{
+  "model": "quiz.exam",
+  "pk": 2,
+  "fields": {
+    "create_timestamp": "2022-07-11T17:06:44.981Z",
+    "update_timestamp": "2022-07-11T17:18:33.443Z",
+    "uuid": "624b2d6d-b01b-486a-9bf2-e63c59298cfd",
+    "title": "Эрудит",
+    "description": "Тест на общие знания и кругозор.",
+    "level": 0
+  }
+},
+{
+  "model": "quiz.exam",
+  "pk": 3,
+  "fields": {
+    "create_timestamp": "2022-07-11T17:32:07.940Z",
+    "update_timestamp": "2022-07-11T17:32:18.563Z",
+    "uuid": "5ab84a3b-9b76-47cd-a31b-2eb2daf8ac8a",
+    "title": "География",
+    "description": "Тест на знание столиц.",
+    "level": 2
+  }
+},
+{
+  "model": "quiz.exam",
+  "pk": 4,
+  "fields": {
+    "create_timestamp": "2022-07-11T18:00:27.125Z",
+    "update_timestamp": "2022-07-11T18:00:27.125Z",
+    "uuid": "c254a6b5-b83d-4db6-98db-abec18922424",
+    "title": "Химия",
+    "description": "Проверь, что ты помнишь о химии =)",
+    "level": 1
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 5,
+  "fields": {
+    "create_timestamp": "2022-07-11T17:06:44.982Z",
+    "update_timestamp": "2022-07-11T17:12:35.212Z",
+    "exam": 2,
+    "order_num": 1,
+    "text": "Какая птица самая большая в мире?",
+    "image": ""
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 6,
+  "fields": {
+    "create_timestamp": "2022-07-11T17:06:44.982Z",
+    "update_timestamp": "2022-07-11T17:11:56.018Z",
+    "exam": 2,
+    "order_num": 2,
+    "text": "Какой пигмент окрашивает листья в зелёный цвет?",
+    "image": ""
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 7,
+  "fields": {
+    "create_timestamp": "2022-07-11T17:06:44.983Z",
+    "update_timestamp": "2022-07-11T17:10:45.261Z",
+    "exam": 2,
+    "order_num": 3,
+    "text": "Какое произведение состоит из трёх ритмических частей по 5 - 7 - 5 слогов?",
+    "image": ""
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 8,
+  "fields": {
+    "create_timestamp": "2022-07-11T17:06:44.983Z",
+    "update_timestamp": "2022-07-11T17:09:20.612Z",
+    "exam": 2,
+    "order_num": 4,
+    "text": "К какому классу животных относятся лягушки?",
+    "image": ""
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 9,
+  "fields": {
+    "create_timestamp": "2022-07-11T17:06:44.983Z",
+    "update_timestamp": "2022-07-11T17:08:07.714Z",
+    "exam": 2,
+    "order_num": 5,
+    "text": "Какое животное не относится к млекопитающим?",
+    "image": ""
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 10,
+  "fields": {
+    "create_timestamp": "2022-07-11T17:18:33.444Z",
+    "update_timestamp": "2022-07-11T17:19:43.968Z",
+    "exam": 2,
+    "order_num": 6,
+    "text": "Какое животное быстрее?",
+    "image": ""
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 11,
+  "fields": {
+    "create_timestamp": "2022-07-11T17:18:33.444Z",
+    "update_timestamp": "2022-07-11T17:21:02.166Z",
+    "exam": 2,
+    "order_num": 7,
+    "text": "Какой остров самый большой в мире?",
+    "image": ""
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 12,
+  "fields": {
+    "create_timestamp": "2022-07-11T17:18:33.444Z",
+    "update_timestamp": "2022-07-11T17:22:16.492Z",
+    "exam": 2,
+    "order_num": 8,
+    "text": "Что из этого не относится к полезным ископаемым?",
+    "image": ""
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 13,
+  "fields": {
+    "create_timestamp": "2022-07-11T17:18:33.445Z",
+    "update_timestamp": "2022-07-11T17:23:50.701Z",
+    "exam": 2,
+    "order_num": 9,
+    "text": "Какая река дважды пересекает экватор?",
+    "image": ""
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 14,
+  "fields": {
+    "create_timestamp": "2022-07-11T17:18:33.445Z",
+    "update_timestamp": "2022-07-11T17:25:03.546Z",
+    "exam": 2,
+    "order_num": 10,
+    "text": "Чем был наполнен первый воздушный шар братьев Монгольфье?",
+    "image": ""
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 15,
+  "fields": {
+    "create_timestamp": "2022-07-11T17:32:07.940Z",
+    "update_timestamp": "2022-07-11T17:49:59.570Z",
+    "exam": 3,
+    "order_num": 1,
+    "text": "Антананариву столица страны:",
+    "image": ""
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 16,
+  "fields": {
+    "create_timestamp": "2022-07-11T17:32:07.941Z",
+    "update_timestamp": "2022-07-11T17:48:21.856Z",
+    "exam": 3,
+    "order_num": 2,
+    "text": "Буэнос-Айрес столица страны:",
+    "image": ""
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 17,
+  "fields": {
+    "create_timestamp": "2022-07-11T17:32:07.941Z",
+    "update_timestamp": "2022-07-11T17:46:43.815Z",
+    "exam": 3,
+    "order_num": 3,
+    "text": "Сува столица страны:",
+    "image": ""
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 18,
+  "fields": {
+    "create_timestamp": "2022-07-11T17:32:07.941Z",
+    "update_timestamp": "2022-07-11T17:43:29.634Z",
+    "exam": 3,
+    "order_num": 4,
+    "text": "Бельмопан столица страны:",
+    "image": ""
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 19,
+  "fields": {
+    "create_timestamp": "2022-07-11T17:32:07.942Z",
+    "update_timestamp": "2022-07-11T17:41:16.260Z",
+    "exam": 3,
+    "order_num": 5,
+    "text": "Каракас столица страны:",
+    "image": ""
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 20,
+  "fields": {
+    "create_timestamp": "2022-07-11T17:32:07.942Z",
+    "update_timestamp": "2022-07-11T17:39:46.472Z",
+    "exam": 3,
+    "order_num": 6,
+    "text": "Мапуту столица страны:",
+    "image": ""
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 21,
+  "fields": {
+    "create_timestamp": "2022-07-11T17:32:07.943Z",
+    "update_timestamp": "2022-07-11T17:38:08.883Z",
+    "exam": 3,
+    "order_num": 7,
+    "text": "Ханой столица страны:",
+    "image": ""
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 22,
+  "fields": {
+    "create_timestamp": "2022-07-11T17:32:07.943Z",
+    "update_timestamp": "2022-07-11T17:36:49.810Z",
+    "exam": 3,
+    "order_num": 8,
+    "text": "Богота столица страны:",
+    "image": ""
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 23,
+  "fields": {
+    "create_timestamp": "2022-07-11T17:32:07.943Z",
+    "update_timestamp": "2022-07-11T17:35:47.664Z",
+    "exam": 3,
+    "order_num": 9,
+    "text": "Санто-Доминго столица страны:",
+    "image": ""
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 24,
+  "fields": {
+    "create_timestamp": "2022-07-11T17:32:07.943Z",
+    "update_timestamp": "2022-07-11T17:33:40.200Z",
+    "exam": 3,
+    "order_num": 10,
+    "text": "Хараре столица страны:",
+    "image": ""
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 25,
+  "fields": {
+    "create_timestamp": "2022-07-11T18:00:27.126Z",
+    "update_timestamp": "2022-07-11T18:06:14.674Z",
+    "exam": 4,
+    "order_num": 1,
+    "text": "Какой металл не относится к группе лантаноидов?",
+    "image": ""
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 26,
+  "fields": {
+    "create_timestamp": "2022-07-11T18:00:27.126Z",
+    "update_timestamp": "2022-07-11T18:07:49.332Z",
+    "exam": 4,
+    "order_num": 2,
+    "text": "Как называется вертикальный столбец периодической системы химических элементов?",
+    "image": ""
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 27,
+  "fields": {
+    "create_timestamp": "2022-07-11T18:00:27.127Z",
+    "update_timestamp": "2022-07-11T18:09:14.418Z",
+    "exam": 4,
+    "order_num": 3,
+    "text": "Если капнуть йодом на еду и она окрасится в синий, какая это еда?",
+    "image": ""
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 28,
+  "fields": {
+    "create_timestamp": "2022-07-11T18:00:27.127Z",
+    "update_timestamp": "2022-07-11T18:10:12.103Z",
+    "exam": 4,
+    "order_num": 4,
+    "text": "Какая бесцветная, легковоспламеняющаяся жидкость известна как CH3COCH3?",
+    "image": ""
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 29,
+  "fields": {
+    "create_timestamp": "2022-07-11T18:00:27.127Z",
+    "update_timestamp": "2022-07-11T18:11:07.424Z",
+    "exam": 4,
+    "order_num": 5,
+    "text": "Какой металл в абсолютно чистом виде можно смять руками?",
+    "image": ""
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 30,
+  "fields": {
+    "create_timestamp": "2022-07-11T18:00:27.128Z",
+    "update_timestamp": "2022-07-11T18:12:14.048Z",
+    "exam": 4,
+    "order_num": 6,
+    "text": "Как называется химический элемент, который занимает второе место после кислорода по распространенности в земной коре?",
+    "image": ""
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 31,
+  "fields": {
+    "create_timestamp": "2022-07-11T18:00:27.128Z",
+    "update_timestamp": "2022-07-11T18:13:19.994Z",
+    "exam": 4,
+    "order_num": 7,
+    "text": "Каково отношение водорода к кислороду в воде (по весу)?",
+    "image": ""
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 32,
+  "fields": {
+    "create_timestamp": "2022-07-11T18:00:27.128Z",
+    "update_timestamp": "2022-07-11T18:14:48.969Z",
+    "exam": 4,
+    "order_num": 8,
+    "text": "Какая частица составляет 99.95% массы атома водорода?",
+    "image": ""
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 33,
+  "fields": {
+    "create_timestamp": "2022-07-11T18:00:27.128Z",
+    "update_timestamp": "2022-07-11T18:16:57.099Z",
+    "exam": 4,
+    "order_num": 9,
+    "text": "Какой элемент самый распространенный во Вселенной?",
+    "image": ""
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 34,
+  "fields": {
+    "create_timestamp": "2022-07-11T18:00:27.129Z",
+    "update_timestamp": "2022-07-11T18:19:45.204Z",
+    "exam": 4,
+    "order_num": 10,
+    "text": "Какой самый тяжелый инертный газ?",
+    "image": ""
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 10,
+  "fields": {
+    "question": 9,
+    "text": "Дельфин",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 11,
+  "fields": {
+    "question": 9,
+    "text": "Волк",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 12,
+  "fields": {
+    "question": 9,
+    "text": "Летучая мышь",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 13,
+  "fields": {
+    "question": 9,
+    "text": "Черепаха",
+    "is_correct": true
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 14,
+  "fields": {
+    "question": 9,
+    "text": "Заяц",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 15,
+  "fields": {
+    "question": 8,
+    "text": "Рыбы",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 16,
+  "fields": {
+    "question": 8,
+    "text": "Рептилии",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 17,
+  "fields": {
+    "question": 8,
+    "text": "Млекопитающие",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 18,
+  "fields": {
+    "question": 8,
+    "text": "Насекомые",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 19,
+  "fields": {
+    "question": 8,
+    "text": "Земноводные",
+    "is_correct": true
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 20,
+  "fields": {
+    "question": 7,
+    "text": "Хайку",
+    "is_correct": true
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 21,
+  "fields": {
+    "question": 7,
+    "text": "Баллада",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 22,
+  "fields": {
+    "question": 7,
+    "text": "Элегия",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 23,
+  "fields": {
+    "question": 7,
+    "text": "Сатира",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 24,
+  "fields": {
+    "question": 7,
+    "text": "Симфония",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 25,
+  "fields": {
+    "question": 6,
+    "text": "Гидроген",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 26,
+  "fields": {
+    "question": 6,
+    "text": "Гидролаз",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 27,
+  "fields": {
+    "question": 6,
+    "text": "Меланин",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 28,
+  "fields": {
+    "question": 6,
+    "text": "Хлорофилл",
+    "is_correct": true
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 29,
+  "fields": {
+    "question": 6,
+    "text": "Хром",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 30,
+  "fields": {
+    "question": 5,
+    "text": "Бекас",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 31,
+  "fields": {
+    "question": 5,
+    "text": "Страус",
+    "is_correct": true
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 32,
+  "fields": {
+    "question": 5,
+    "text": "Орёл",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 33,
+  "fields": {
+    "question": 5,
+    "text": "Аист",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 34,
+  "fields": {
+    "question": 5,
+    "text": "Гриф",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 35,
+  "fields": {
+    "question": 10,
+    "text": "Лев",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 36,
+  "fields": {
+    "question": 10,
+    "text": "Леопард",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 37,
+  "fields": {
+    "question": 10,
+    "text": "Гепард",
+    "is_correct": true
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 38,
+  "fields": {
+    "question": 10,
+    "text": "Тигр",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 39,
+  "fields": {
+    "question": 10,
+    "text": "Пума",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 40,
+  "fields": {
+    "question": 11,
+    "text": "Калимантан",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 41,
+  "fields": {
+    "question": 11,
+    "text": "Сахалин",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 42,
+  "fields": {
+    "question": 11,
+    "text": "Новая Гвинея",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 43,
+  "fields": {
+    "question": 11,
+    "text": "Мадагаскар",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 44,
+  "fields": {
+    "question": 11,
+    "text": "Гренландия",
+    "is_correct": true
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 45,
+  "fields": {
+    "question": 12,
+    "text": "Бронза",
+    "is_correct": true
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 46,
+  "fields": {
+    "question": 12,
+    "text": "Песок",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 47,
+  "fields": {
+    "question": 12,
+    "text": "Гранит",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 48,
+  "fields": {
+    "question": 12,
+    "text": "Газ",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 49,
+  "fields": {
+    "question": 12,
+    "text": "Уголь",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 50,
+  "fields": {
+    "question": 13,
+    "text": "Нигер",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 51,
+  "fields": {
+    "question": 13,
+    "text": "Нил",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 52,
+  "fields": {
+    "question": 13,
+    "text": "Конго",
+    "is_correct": true
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 53,
+  "fields": {
+    "question": 13,
+    "text": "Амазонка",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 54,
+  "fields": {
+    "question": 13,
+    "text": "Кагера",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 55,
+  "fields": {
+    "question": 14,
+    "text": "Горячим воздухом",
+    "is_correct": true
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 56,
+  "fields": {
+    "question": 14,
+    "text": "Азотом",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 57,
+  "fields": {
+    "question": 14,
+    "text": "Кислородом",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 58,
+  "fields": {
+    "question": 14,
+    "text": "Гелием",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 59,
+  "fields": {
+    "question": 14,
+    "text": "Углекислым газом",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 60,
+  "fields": {
+    "question": 24,
+    "text": "Зимбабве",
+    "is_correct": true
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 61,
+  "fields": {
+    "question": 24,
+    "text": "Боливия",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 62,
+  "fields": {
+    "question": 24,
+    "text": "Дания",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 63,
+  "fields": {
+    "question": 24,
+    "text": "Гаити",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 64,
+  "fields": {
+    "question": 24,
+    "text": "Намибия",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 65,
+  "fields": {
+    "question": 23,
+    "text": "Уругвай",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 66,
+  "fields": {
+    "question": 23,
+    "text": "Мьянма",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 67,
+  "fields": {
+    "question": 23,
+    "text": "Мали",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 68,
+  "fields": {
+    "question": 23,
+    "text": "Шри-Ланка",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 69,
+  "fields": {
+    "question": 23,
+    "text": "Доминиканская Республика",
+    "is_correct": true
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 70,
+  "fields": {
+    "question": 22,
+    "text": "Зимбабве",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 71,
+  "fields": {
+    "question": 22,
+    "text": "Ливан",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 72,
+  "fields": {
+    "question": 22,
+    "text": "Колумбия",
+    "is_correct": true
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 73,
+  "fields": {
+    "question": 22,
+    "text": "Боливия",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 74,
+  "fields": {
+    "question": 22,
+    "text": "Мьянма",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 75,
+  "fields": {
+    "question": 21,
+    "text": "Мали",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 76,
+  "fields": {
+    "question": 21,
+    "text": "Вьетнам",
+    "is_correct": true
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 77,
+  "fields": {
+    "question": 21,
+    "text": "Тенерифе",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 78,
+  "fields": {
+    "question": 21,
+    "text": "Уганда",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 79,
+  "fields": {
+    "question": 21,
+    "text": "Руанда",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 80,
+  "fields": {
+    "question": 20,
+    "text": "Ботсвана",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 81,
+  "fields": {
+    "question": 20,
+    "text": "Ангола",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 82,
+  "fields": {
+    "question": 20,
+    "text": "Замбия",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 83,
+  "fields": {
+    "question": 20,
+    "text": "Кения",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 84,
+  "fields": {
+    "question": 20,
+    "text": "Мозамбик",
+    "is_correct": true
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 85,
+  "fields": {
+    "question": 19,
+    "text": "Венесуэла",
+    "is_correct": true
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 86,
+  "fields": {
+    "question": 19,
+    "text": "Тенерифе",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 87,
+  "fields": {
+    "question": 19,
+    "text": "Индонезия",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 88,
+  "fields": {
+    "question": 19,
+    "text": "Камерун",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 89,
+  "fields": {
+    "question": 19,
+    "text": "Гайана",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 90,
+  "fields": {
+    "question": 18,
+    "text": "Гондурас",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 91,
+  "fields": {
+    "question": 18,
+    "text": "Гватемала",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 92,
+  "fields": {
+    "question": 18,
+    "text": "Никарагуа",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 93,
+  "fields": {
+    "question": 18,
+    "text": "Белиз",
+    "is_correct": true
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 94,
+  "fields": {
+    "question": 18,
+    "text": "Мозамбик",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 95,
+  "fields": {
+    "question": 17,
+    "text": "Вануату",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 96,
+  "fields": {
+    "question": 17,
+    "text": "Папуа-Новая Гвинея",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 97,
+  "fields": {
+    "question": 17,
+    "text": "Новая Каледония",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 98,
+  "fields": {
+    "question": 17,
+    "text": "Филиппины",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 99,
+  "fields": {
+    "question": 17,
+    "text": "Фиджи",
+    "is_correct": true
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 100,
+  "fields": {
+    "question": 16,
+    "text": "Эквадор",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 101,
+  "fields": {
+    "question": 16,
+    "text": "Аргентина",
+    "is_correct": true
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 102,
+  "fields": {
+    "question": 16,
+    "text": "Боливия",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 103,
+  "fields": {
+    "question": 16,
+    "text": "Парагвай",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 104,
+  "fields": {
+    "question": 16,
+    "text": "Панама",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 105,
+  "fields": {
+    "question": 15,
+    "text": "Малави",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 106,
+  "fields": {
+    "question": 15,
+    "text": "Мозамбик",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 107,
+  "fields": {
+    "question": 15,
+    "text": "Танзания",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 108,
+  "fields": {
+    "question": 15,
+    "text": "Мадагаскар",
+    "is_correct": true
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 109,
+  "fields": {
+    "question": 15,
+    "text": "Эфиопия",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 110,
+  "fields": {
+    "question": 25,
+    "text": "Церий",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 111,
+  "fields": {
+    "question": 25,
+    "text": "Осмий",
+    "is_correct": true
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 112,
+  "fields": {
+    "question": 25,
+    "text": "Лютеций",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 113,
+  "fields": {
+    "question": 25,
+    "text": "Лантан",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 114,
+  "fields": {
+    "question": 26,
+    "text": "Группа",
+    "is_correct": true
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 115,
+  "fields": {
+    "question": 26,
+    "text": "Подгруппа",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 116,
+  "fields": {
+    "question": 26,
+    "text": "Серия",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 117,
+  "fields": {
+    "question": 26,
+    "text": "Номер",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 118,
+  "fields": {
+    "question": 27,
+    "text": "С глютеном",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 119,
+  "fields": {
+    "question": 27,
+    "text": "С сахаром",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 120,
+  "fields": {
+    "question": 27,
+    "text": "С лактозой",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 121,
+  "fields": {
+    "question": 27,
+    "text": "С крахмалом",
+    "is_correct": true
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 122,
+  "fields": {
+    "question": 28,
+    "text": "Спирт",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 123,
+  "fields": {
+    "question": 28,
+    "text": "Аммония",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 124,
+  "fields": {
+    "question": 28,
+    "text": "Мышьяк",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 125,
+  "fields": {
+    "question": 28,
+    "text": "Ацетон",
+    "is_correct": true
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 126,
+  "fields": {
+    "question": 29,
+    "text": "Серебро",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 127,
+  "fields": {
+    "question": 29,
+    "text": "Золото",
+    "is_correct": true
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 128,
+  "fields": {
+    "question": 29,
+    "text": "Бронза",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 129,
+  "fields": {
+    "question": 29,
+    "text": "Платина",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 130,
+  "fields": {
+    "question": 30,
+    "text": "Железо",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 131,
+  "fields": {
+    "question": 30,
+    "text": "Азот",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 132,
+  "fields": {
+    "question": 30,
+    "text": "Кремний",
+    "is_correct": true
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 133,
+  "fields": {
+    "question": 30,
+    "text": "Алюминий",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 134,
+  "fields": {
+    "question": 31,
+    "text": "1:4",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 135,
+  "fields": {
+    "question": 31,
+    "text": "4:1",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 136,
+  "fields": {
+    "question": 31,
+    "text": "8:1",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 137,
+  "fields": {
+    "question": 31,
+    "text": "1:8",
+    "is_correct": true
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 138,
+  "fields": {
+    "question": 32,
+    "text": "Протон",
+    "is_correct": true
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 139,
+  "fields": {
+    "question": 32,
+    "text": "Электрон",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 140,
+  "fields": {
+    "question": 32,
+    "text": "Атом",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 141,
+  "fields": {
+    "question": 32,
+    "text": "Кларк",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 142,
+  "fields": {
+    "question": 33,
+    "text": "Водород",
+    "is_correct": true
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 143,
+  "fields": {
+    "question": 33,
+    "text": "Кислород",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 144,
+  "fields": {
+    "question": 33,
+    "text": "Углерод",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 145,
+  "fields": {
+    "question": 33,
+    "text": "Азот",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 146,
+  "fields": {
+    "question": 34,
+    "text": "Радон",
+    "is_correct": true
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 147,
+  "fields": {
+    "question": 34,
+    "text": "Гелий",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 148,
+  "fields": {
+    "question": 34,
+    "text": "Аргон",
+    "is_correct": false
+  }
+},
+{
+  "model": "quiz.choice",
+  "pk": 149,
+  "fields": {
+    "question": 34,
+    "text": "Ксенон",
+    "is_correct": false
+  }
+}
+]

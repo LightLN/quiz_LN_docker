@@ -1,0 +1,88 @@
+{% extends 'base.html' %}
+
+{% load custom_tags %}
+
+{% block title %}
+    Результат теста
+{% endblock %}
+
+{% block header %}
+    Результат теста: "{{ result.exam.title }}"
+    <div class="progress">
+      <div class="progress-bar bg-success"
+           role="progressbar"
+           style="width: 100%"
+           aria-valuenow="100"
+           aria-valuemin="0"
+           aria-valuemax="100">
+      </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <table class="table table-striped">
+                    <tbody>
+                        <tr>
+                            <td>Начат:</td>
+                            <td>{{ result.create_timestamp }}</td>
+                        </tr>
+                        <tr>
+                            <td>Окончен:</td>
+                            <td>{{ result.update_timestamp }}</td>
+                        </tr>
+                        <tr>
+                            <td>Время:</td>
+                            <td>{{ result.time }}</td>
+                        </tr>
+                        <tr>
+                            <td>Пользователь:</td>
+                            <td>{{ result.user }}</td>
+                        </tr>
+                        <tr>
+                            <td>Oтветы:</td>
+                            <td>
+                                верно - {{ result.num_correct_answers }},&nbsp;&nbsp;&nbsp;
+                                ошибка - {{ result.num_incorrect_answers}},&nbsp;&nbsp;&nbsp;
+                                итого правильно:
+                                {% with result.num_correct_answers|multi:100|dived:result.exam.questions_count as percentage %}
+                                {{ percentage }}%
+                                {% endwith %}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Результат:</td>
+                            <td>
+                                {% expression '%1 * 100 // %2' result.num_correct_answers result.exam.questions_count as progress_plus %}
+                                <div class="progress">
+                                    <div class="progress-bar bg-success"
+                                       role="progressbar"
+                                       style="width: {{ progress_plus }}%"
+                                       aria-valuenow="{{ progress_plus }}"
+                                       aria-valuemin="0"
+                                       aria-valuemax="100">
+                                        {{ progress_plus }}%
+                                    </div>
+                                    {% expression '%1 * 100 // %2' result.num_incorrect_answers result.exam.questions_count as progress_minus %}
+                                    <div class="progress-bar bg-dark"
+                                       role="progressbar"
+                                       style="width: {{ progress_minus }}%"
+                                       aria-valuenow="{{ progress_minus }}"
+                                       aria-valuemin="0"
+                                       aria-valuemax="100">
+                                        {{ progress_minus }}%
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+              </table>
+            </div>
+        </div>
+        <div class="row">
+            <a class="btn btn-dark m-3" href="{% url 'quiz:details' uuid=result.exam.uuid %}">Вернуться к тесту</a>
+        </div>
+    </div>
+{% endblock %}
