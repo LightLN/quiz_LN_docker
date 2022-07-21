@@ -101,3 +101,6 @@ class Result(BaseModel):
 
     def time(self):
         return self.update_timestamp.replace(microsecond=0) - self.create_timestamp.replace(microsecond=0)
+
+    def __str__(self):
+        return f'{self.user}: {self.exam} {self.num_correct_answers}/{self.num_incorrect_answers}'
