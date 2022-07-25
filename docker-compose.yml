@@ -6,12 +6,12 @@ services:
     image: lightln/web_service:latest
     container_name: web_service
 #    command: python manage.py runserver 0.0.0.0:8090
-    command: gunicorn app.wsgi:application --bind 0.0.0.0:8090
-#    volumes:
-#      - static_volume:/opt/src/static
-#      - media_volume:/opt/src/media
+    command: gunicorn app.wsgi:application --workers 4 --bind 0.0.0.0:8090
     volumes:
-      - ./src:/opt/src
+      - static_volume:/opt/src/static
+      - media_volume:/opt/src/media
+#    volumes:
+#      - ./src:/opt/src
     ports:
       - "8090:8090"
     env_file:
@@ -64,7 +64,7 @@ services:
     container_name: worker_service
     command: sh -c "celery -A app worker --concurrency=20 --loglevel=info"
     volumes:
-      - ./src:/opt/src
+      - src_volume:/opt/src
     env_file:
       - .env
     depends_on:
@@ -76,7 +76,7 @@ services:
     container_name: scheduler_service
     command: sh -c "celery -A app beat -l info"
     volumes:
-      - ./src:/opt/src
+      - src_volume:/opt/src
     env_file:
       - .env
     depends_on:
@@ -90,6 +90,8 @@ volumes:
     name: static_data
   media_volume:
     name: media_data
+  src_volume:
+    name: source_code
   rabbit_volume:
     name: rabbit_data
   redis_volume:
